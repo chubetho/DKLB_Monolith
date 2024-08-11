@@ -3,9 +3,6 @@ import plugin from 'tailwindcss/plugin'
 
 export default {
   content: ['src/**/*.{vue,ts}'],
-  corePlugins: {
-    preflight: false,
-  },
   theme: {
     extend: {
       colors: {

@@ -15,6 +15,8 @@
   },
   "dependencies": {
     "@vueuse/core": "^10.11.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
     "pinia": "^2.2.1",
     "vue": "^3.4.37",
     "vue-router": "^4.4.3"
@@ -22,12 +24,17 @@
   "devDependencies": {
     "@dklb/eslint-config": "workspace:^",
     "@dklb/tsconfig": "workspace:^",
+    "@elysiajs/eden": "^1.1.2",
+    "@iconify-json/mdi": "^1.1.68",
     "@vitejs/plugin-vue": "^5.1.2",
     "autoprefixer": "^10.4.20",
     "postcss": "8.4.38",
+    "tailwind-merge": "^2.4.0",
     "tailwindcss": "3.4.3",
     "typescript": "^5.5.3",
+    "unplugin-icons": "^0.19.2",
     "vite": "^5.4.0",
     "vue-tsc": "^2.0.29"
+
   }
 }

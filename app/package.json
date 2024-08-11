@@ -1,0 +1,33 @@
+{
+  "name": "@dklb/app",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:watch": "vite build --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.11.1",
+    "pinia": "^2.2.1",
+    "vue": "^3.4.37",
+    "vue-router": "^4.4.3"
+  },
+  "devDependencies": {
+    "@dklb/eslint-config": "workspace:^",
+    "@dklb/tsconfig": "workspace:^",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "autoprefixer": "^10.4.20",
+    "postcss": "8.4.38",
+    "tailwindcss": "3.4.3",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.0",
+    "vue-tsc": "^2.0.29"
+  }
+}

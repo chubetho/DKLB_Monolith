@@ -1,0 +1,19 @@
+{
+  "name": "@dklb/eslint-config",
+  "type": "module",
+  "version": "1.0.0",
+  "private": "true",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    }
+  },
+  "types": "./index.d.ts",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.25.0",
+    "eslint": "^9.9.0"
+  }
+}

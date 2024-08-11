@@ -1,0 +1,27 @@
+{
+  "name": "dklb",
+  "type": "module",
+  "version": "1.0.0",
+  "workspaces": [
+    "app",
+    "tools/*",
+    "server"
+  ],
+  "scripts": {
+    "bump": "taze -Ir -C .",
+    "postinstall": "simple-git-hooks"
+  },
+  "devDependencies": {
+    "@dklb/eslint-config": "workspace:^",
+    "@types/bun": "^1.1.6",
+    "lint-staged": "^15.2.8",
+    "simple-git-hooks": "^2.11.1",
+    "taze": "^0.16.3"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "bunx lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
+  }
+}

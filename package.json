@@ -8,7 +8,11 @@
     "server"
   ],
   "scripts": {
+    "build": "bun run build:server & bun run build:app",
     "dev:app": "bun run --cwd ./app dev",
+    "build:app": "bun run --cwd ./app build",
+    "dev:server": "bun run --cwd ./server dev",
+    "build:server": "bun run --cwd ./server build",
     "bump": "taze -Ir -C .",
     "postinstall": "simple-git-hooks"
   },

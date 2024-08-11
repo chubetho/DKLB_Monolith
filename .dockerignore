@@ -1,0 +1,16 @@
+node_modules
+Dockerfile*
+docker-compose*
+.dockerignore
+.git
+.gitignore
+README.md
+.vscode
+.env
+.editorconfig
+.idea
+coverage*
+.template
+scripts
+eslint.config.js
+.github

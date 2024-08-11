@@ -13,7 +13,7 @@ export default defineConfig({
       defaultClass: 'block text-2xl',
     }),
   ],
-  server: { port: 8000 },
-  preview: { port: 8000 },
+  server: { port: 9000 },
+  preview: { port: 9000 },
   build: { target: 'esnext' },
 })

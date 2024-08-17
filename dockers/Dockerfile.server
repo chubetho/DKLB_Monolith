@@ -13,5 +13,5 @@ FROM oven/bun:slim
 WORKDIR /dklb
 COPY --from=build /dklb/dist/index.js /dklb/index.js
 
-EXPOSE 4000
+EXPOSE 5001
 ENTRYPOINT ["bun", "run", "/dklb/index.js"]

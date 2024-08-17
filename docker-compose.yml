@@ -4,13 +4,13 @@ services:
       context: .
       dockerfile: dockers/Dockerfile.server
     ports:
-      - '4000:4000'
+      - '5001:5001'
 
   app:
     build:
       context: .
       dockerfile: dockers/Dockerfile.app
     ports:
-      - '9000:9000'
+      - '10000:10000'
     depends_on:
       - server

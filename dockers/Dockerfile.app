@@ -10,5 +10,5 @@ RUN rm -rf * && rm -f /etc/nginx/conf.d/default.conf
 COPY ./dockers/nginx.conf /etc/nginx/conf.d
 COPY --from=build /dklb/app/dist ./
 
-EXPOSE 9000
+EXPOSE 10000
 ENTRYPOINT ["nginx", "-g", "daemon off;"]

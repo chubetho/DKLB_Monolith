@@ -5,7 +5,8 @@
   "workspaces": [
     "app",
     "tools/*",
-    "server"
+    "server",
+    "e2e"
   ],
   "scripts": {
     "build": "bun run build:server & bun run build:app",

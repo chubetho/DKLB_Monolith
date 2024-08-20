@@ -1,0 +1,14 @@
+{
+  "name": "e2e",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "bunx playwright test"
+  },
+  "devDependencies": {
+    "@dklb/eslint-config": "workspace:^",
+    "@dklb/tsconfig": "workspace:^",
+    "@playwright/test": "^1.46.1",
+    "@types/bun": "latest"
+  }
+}

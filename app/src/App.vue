@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { provide, ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
-import { GLOBAL_STATE_KEY } from './utils.ts'
+import { GLOBAL_STATE_KEY } from './utils'
 import TheNav from './components/TheNav.vue'
 import TheFooter from './components/TheFooter.vue'
 

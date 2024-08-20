@@ -27,13 +27,17 @@
     "@elysiajs/eden": "^1.1.2",
     "@iconify-json/mdi": "^1.1.68",
     "@vitejs/plugin-vue": "^5.1.2",
+    "@vue/test-utils": "^2.4.6",
     "autoprefixer": "^10.4.20",
+    "jsdom": "^24.1.1",
     "postcss": "8.4.38",
     "tailwind-merge": "^2.5.2",
     "tailwindcss": "3.4.3",
     "typescript": "^5.5.4",
     "unplugin-icons": "^0.19.2",
     "vite": "^5.4.2",
+    "vitest": "^2.0.5",
+    "vue-router-mock": "^1.1.0",
     "vue-tsc": "^2.0.29"
   }
 }
